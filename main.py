@@ -1,5 +1,8 @@
-def adder(a, b):
-    return a + b
+def divider(a, b):
+    return a / b
 
+try:
+    print(divider(1,2))
 
-print(adder(1,2))
+except ZeroDivisionError:
+    print("Can't divide by zero")
